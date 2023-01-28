@@ -1,0 +1,30 @@
+.navbar{
+    background-color: rgb(98 81 255);
+}
+
+.nav-item{
+    text-align: center;
+}
+
+footer img{
+    width: 20px !important;
+}
+
+main{
+    padding-bottom: 2vh;
+}
+
+footer{
+    background-color: blueviolet;
+    height: 15vh;
+    position: absolute;
+    width: 100%;
+}
+
+footer .text-muted{
+    color: white !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("../img/mobile_nav.png") !important;
+}
