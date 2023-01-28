@@ -1,0 +1,11 @@
+.card.producto {
+	width: 18rem
+}
+
+.card.contacto {
+	width: 50rem;
+}
+
+.card.contacto .form-control {
+    margin-bottom: 2vh;
+}
