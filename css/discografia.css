@@ -1,0 +1,16 @@
+main h2{
+    padding: 3vh;
+    margin-left: 2vw;
+    margin-bottom: 2vh;
+}
+
+main p{
+    padding-left: 3vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.discos img:hover{
+    transform: scale(1.1);
+    transition-duration: 1.5s;
+}
