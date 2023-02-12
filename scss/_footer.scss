@@ -1,0 +1,42 @@
+footer {
+	img {
+		width: 20px !important;
+		&:hover {
+			transform: rotateY(360deg);
+    		transition-duration: 4s;
+		}
+	}
+
+	background-color: blueviolet;
+	height: 15vh;
+	position: absolute;
+	width: 100%;
+
+	.text-muted {
+		color: white !important;
+	}
+}
+
+@media only screen and (min-width: $tablets) and (max-width: $desktop) {
+	footer {
+		img {
+			width: 50px;
+		}
+	}
+}
+
+@media only screen and (min-width: $smartphone) and (max-width: $tablets) {
+	footer {
+		img {
+			width: 60px !important;
+		}
+	}
+}
+
+@media only screen and (max-width:$smartphone ) {
+	footer {
+		img {
+			width: 50px;
+		}
+	}
+}

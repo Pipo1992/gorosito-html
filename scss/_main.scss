@@ -1,0 +1,16 @@
+main {
+	padding-bottom: $margen-base-altura;
+
+	h2 {
+		padding: $padding-base;
+		margin-left: $margen-base-ancho;
+		margin-bottom: $margen-base-altura;
+		font-family: $tipografia;
+	}
+	
+	p {
+		padding-left: $padding-base;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		font-weight: bolder;
+	}
+}

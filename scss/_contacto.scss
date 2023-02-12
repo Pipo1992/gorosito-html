@@ -1,0 +1,11 @@
+.contacto {
+	background-image: url(../img/fondo.jpg);
+	background-size: cover;
+}
+
+.card.contacto {
+	width: 50rem;
+	.form-control {
+		margin-bottom: 2vh;
+	}
+}

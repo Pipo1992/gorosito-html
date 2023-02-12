@@ -1,0 +1,41 @@
+section {
+	height: auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat 2, 1fr;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	grid-column-gap: 0.63rem;
+	grid-row-gap: 0.5rem;
+}
+
+#tour {
+	margin-top: 20px;
+}
+
+.obj_flex {
+	width: 100%;
+	height: 0;
+	padding-top: 56.25%;
+	position: relative;
+	margin-bottom: 5%;
+
+	iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+@media only screen and (max-width:$smartphone ) {
+	section {
+		grid-template-columns: repeat(1, 1fr);
+		margin-left: 15vw;
+	}	
+}

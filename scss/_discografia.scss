@@ -1,0 +1,8 @@
+.discos {
+	img {
+		&:hover {
+			transform: scale(1.1);
+			transition-duration: 1.5s;
+		}
+	}
+}

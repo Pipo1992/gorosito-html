@@ -1,0 +1,17 @@
+@import 'variables.scss';
+@import 'main.scss';
+@import 'footer.scss';
+@import 'navbar.scss';
+@import 'discografia.scss';
+@import 'galeria.scss';
+@import 'contacto.scss';
+@import 'merch.scss';
+
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+}
