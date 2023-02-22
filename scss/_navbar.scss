@@ -1,4 +1,10 @@
 /*header*/
+header {
+	z-index: 1000;
+	position: sticky;
+	top:0px;
+}
+
 .navbar {
 	background-color:  rgb(98, 81, 255);
 }

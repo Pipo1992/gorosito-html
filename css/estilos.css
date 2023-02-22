@@ -34,9 +34,18 @@ footer {
 
 @media only screen and (max-width: 600px) {
   footer img {
-    width: 50px; } }
+    width: 50px; }
+  footer .text-muted {
+    font-size: small; }
+  .justify-content-end {
+    padding-left: 30vw; } }
 
 /*header*/
+header {
+  z-index: 1000;
+  position: sticky;
+  top: 0px; }
+
 .navbar {
   background-color: #6251ff; }
 
@@ -109,6 +118,10 @@ section {
 
 .card.producto {
   width: 18rem; }
+
+.row {
+  gap: 20px;
+  justify-content: space-evenly; }
 
 h2 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
