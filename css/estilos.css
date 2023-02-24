@@ -11,6 +11,9 @@ main {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder; }
 
+.titulo-principal {
+  margin-bottom: 4vh; }
+
 footer {
   background-color: blueviolet;
   height: 15vh;
@@ -119,7 +122,7 @@ section {
 .card.producto {
   width: 18rem; }
 
-.row {
+.row.merch {
   gap: 20px;
   justify-content: space-evenly; }
 
